@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "build": "tsc && eslint src && npm test",
+    "test": "mocha",
+    "start": "node server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
@@ -8,5 +13,6 @@
     "express-session": "^1.18.0",
     "mongoose": "^8.2.3",
     "mysql": "^2.18.1"
+
   }
 }
